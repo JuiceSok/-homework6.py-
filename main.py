@@ -8,5 +8,15 @@ print(my_dict)
 del my_dict['Паша']
 print(my_dict['Артем'])
 print(my_dict)
+# Работа с множествами:
+
+my_set = {1, 2, 3, 5, 6, 'Star', 20, 1, 2, 'Star', 2, 5, 6,}
+print(my_set)
+my_set.add((4, 55))
+my_set.add(4)
+my_set.add(55)
+print(my_set)
+my_set.discard(55)
+print(my_set)
 
 
